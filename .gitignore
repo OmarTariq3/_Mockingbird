@@ -1,0 +1,52 @@
+# ========================
+# 🔒 SECURITY (CRITICAL)
+# ========================
+# NEVER commit your YouTube authentication cookies
+cookies.txt
+
+# Environment variables (if you add them later)
+.env
+.env.local
+
+# ========================
+# 🐍 PYTHON STANDARD
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# ========================
+# 🐦 _MOCKINGBIRD DATA
+# ========================
+# Ignore downloaded audio files (too large for Git)
+data/audio/*
+# ...but keep the folder itself so the script doesn't crash
+!data/audio/.gitkeep
+
+# Ignore backup CSVs (too much noise)
+data/backups/*
+!data/backups/.gitkeep
+
+# (You Don't want to share your personal video list)
+data/input.csv
+data/transcripts.csv
+
+# ========================
+# 💻 OS & IDE JUNK
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

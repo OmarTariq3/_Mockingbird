@@ -1,0 +1,14 @@
+# Genral Utilities
+pandas>=2.2.2
+numpy
+tqdm>=4.66.0
+openpyxl # Excel support
+
+# Audio & Media
+openai-whisper
+yt-dlp[default]
+ffmpeg-python
+
+# Network
+requests>=2.31.0      # Required for pandas to read CSVs from URLs
+fsspec                # Required by pandas for file handling
