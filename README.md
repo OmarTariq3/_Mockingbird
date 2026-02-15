@@ -56,7 +56,7 @@ Before running the Python script, ensure you have these installed globally:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/_Mockingbird.git](https://github.com/yourusername/_Mockingbird.git)
+git clone https://github.com/yourusername/_Mockingbird.git
 cd _Mockingbird
 ```
 
